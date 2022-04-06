@@ -23,23 +23,6 @@ resource "aws_s3_bucket_lifecycle_configuration" "state_store" {
       noncurrent_days = 30
     }
   }
-
-  dynamic "rule" {
-    for_each = var.clusters
-    content {
-      id     = "Remove ${rule.value} backups older than 60 days"
-      status = "Enabled"
-
-      filter {
-        prefix = "${rule.value}/backups"
-      }
-
-      expiration {
-        days                         = 60
-        expired_object_delete_marker = false
-      }
-    }
-  }
 }
 
 resource "aws_s3_bucket_server_side_encryption_configuration" "state_store" {
