@@ -7,9 +7,19 @@ resource "aws_s3_bucket" "state_store" {
   }
 }
 
-resource "aws_s3_bucket_acl" "state_store" {
+resource "aws_s3_bucket_ownership_controls" "state_store" {
   bucket = aws_s3_bucket.state_store.id
-  acl    = "private"
+  rule {
+    object_ownership = "BucketOwnerPreferred"
+  }
+}
+
+resource "aws_s3_bucket_public_access_block" "state_store" {
+  bucket                  = aws_s3_bucket.state_store.id
+  block_public_acls       = false
+  block_public_policy     = false
+  ignore_public_acls      = false
+  restrict_public_buckets = false
 }
 
 resource "aws_s3_bucket_lifecycle_configuration" "state_store" {
