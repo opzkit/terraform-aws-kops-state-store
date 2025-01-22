@@ -1,6 +1,14 @@
-name: Terrascan
-on: [ pull_request ]
 # https://github.com/marketplace/actions/terrascan-iac-scanner
+name: Terrascan
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+
+permissions: read-all
+
 jobs:
   terrascan:
     runs-on: ubuntu-latest
