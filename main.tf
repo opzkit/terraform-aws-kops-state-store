@@ -10,9 +10,10 @@ resource "aws_s3_bucket" "state_store" {
 resource "aws_s3_bucket_ownership_controls" "state_store" {
   bucket = aws_s3_bucket.state_store.id
   rule {
-    object_ownership = "BucketOwnerPreferred"
+    object_ownership = "BucketOwnerEnforced"
   }
 }
+
 
 resource "aws_s3_bucket_public_access_block" "state_store" {
   bucket                  = aws_s3_bucket.state_store.id

@@ -5,6 +5,8 @@ on:
   push:
     branches: [main]
 
+permissions: read-all
+
 jobs:
   pre-commit:
     runs-on: ubuntu-latest
@@ -12,6 +14,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: hashicorp/setup-terraform@v3
       - uses: terraform-linters/setup-tflint@v4
-      - uses: bridgecrewio/checkov-action@master
       - uses: actions/setup-python@v3
       - uses: pre-commit/action@v3.0.1
