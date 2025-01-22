@@ -16,10 +16,10 @@ resource "aws_s3_bucket_ownership_controls" "state_store" {
 
 resource "aws_s3_bucket_public_access_block" "state_store" {
   bucket                  = aws_s3_bucket.state_store.id
-  block_public_acls       = false
-  block_public_policy     = false
-  ignore_public_acls      = false
-  restrict_public_buckets = false
+  block_public_acls       = true
+  block_public_policy     = true
+  ignore_public_acls      = true
+  restrict_public_buckets = true
 }
 
 resource "aws_s3_bucket_lifecycle_configuration" "state_store" {
@@ -31,6 +31,9 @@ resource "aws_s3_bucket_lifecycle_configuration" "state_store" {
 
     noncurrent_version_expiration {
       noncurrent_days = 30
+    }
+    abort_incomplete_multipart_upload {
+      days_after_initiation = 1
     }
   }
 }
