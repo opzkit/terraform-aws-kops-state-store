@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.5.2](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.5.1...v0.5.2) (2025-01-30)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump actions/setup-python from 3 to 5 ([#20](https://github.com/opzkit/terraform-aws-kops-state-store/issues/20)) ([6531171](https://github.com/opzkit/terraform-aws-kops-state-store/commit/6531171863479814bdfde6cd0eafefdd77ee5170))
+* **deps:** bump actions/setup-python from 5.3.0 to 5.4.0 ([#25](https://github.com/opzkit/terraform-aws-kops-state-store/issues/25)) ([2401556](https://github.com/opzkit/terraform-aws-kops-state-store/commit/240155614b5a8d9985da2e505d451ddf02e50d2d))
+* **deps:** bump github/codeql-action from 3.28.2 to 3.28.5 ([#23](https://github.com/opzkit/terraform-aws-kops-state-store/issues/23)) ([9447821](https://github.com/opzkit/terraform-aws-kops-state-store/commit/9447821071a85fd8d6cd9c1b70e22f2080fb8bac))
+* **deps:** bump github/codeql-action from 3.28.5 to 3.28.6 ([#24](https://github.com/opzkit/terraform-aws-kops-state-store/issues/24)) ([d766457](https://github.com/opzkit/terraform-aws-kops-state-store/commit/d76645771916b646a77bfb64dc1c9d03a4edce2f))
+* **deps:** bump github/codeql-action from 3.28.6 to 3.28.8 ([#26](https://github.com/opzkit/terraform-aws-kops-state-store/issues/26)) ([5b7f777](https://github.com/opzkit/terraform-aws-kops-state-store/commit/5b7f7779d1d3446b3d92f5f3bf15b62b3cb00c62))
+* fix checkov config and pin action versions ([#22](https://github.com/opzkit/terraform-aws-kops-state-store/issues/22)) ([d999680](https://github.com/opzkit/terraform-aws-kops-state-store/commit/d999680e17685d5b0348bee03a15959716bd9ced))
+
 ## [0.5.1](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.5.0...v0.5.1) (2025-01-22)
 
 
