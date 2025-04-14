@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.1](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.6.0...v0.6.1) (2025-04-14)
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.0 ([#46](https://github.com/opzkit/terraform-aws-kops-state-store/issues/46)) ([1901c4c](https://github.com/opzkit/terraform-aws-kops-state-store/commit/1901c4cb06562bb4bc68ca40e8dd48a82a3875c1))
+
 ## [0.6.0](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.5.1...v0.6.0) (2025-04-10)
 
 
