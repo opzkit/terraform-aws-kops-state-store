@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.6.1](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.6.0...v0.6.1) (2025-06-19)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/setup-python action to v5.6.0 ([#48](https://github.com/opzkit/terraform-aws-kops-state-store/issues/48)) ([4bf72fb](https://github.com/opzkit/terraform-aws-kops-state-store/commit/4bf72fbe28513821c3817708d474b181d73bd9b2))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.0 ([#46](https://github.com/opzkit/terraform-aws-kops-state-store/issues/46)) ([1901c4c](https://github.com/opzkit/terraform-aws-kops-state-store/commit/1901c4cb06562bb4bc68ca40e8dd48a82a3875c1))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.1 ([#50](https://github.com/opzkit/terraform-aws-kops-state-store/issues/50)) ([5702e51](https://github.com/opzkit/terraform-aws-kops-state-store/commit/5702e51a9a4260676a9c2671fb75ebed356f0ec4))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.3 ([#52](https://github.com/opzkit/terraform-aws-kops-state-store/issues/52)) ([592f521](https://github.com/opzkit/terraform-aws-kops-state-store/commit/592f521ec84309742ab1f0f46c2e874c172a63a9))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.4 ([#53](https://github.com/opzkit/terraform-aws-kops-state-store/issues/53)) ([f861d8e](https://github.com/opzkit/terraform-aws-kops-state-store/commit/f861d8e1c1667648cb39b804731a4dbd45979cba))
+* **deps:** update terraform aws to v6 ([#54](https://github.com/opzkit/terraform-aws-kops-state-store/issues/54)) ([e4ddd26](https://github.com/opzkit/terraform-aws-kops-state-store/commit/e4ddd26ec5050664385a3c24742dd814005861e4))
+* remove unnecessary work flow for release please ([#49](https://github.com/opzkit/terraform-aws-kops-state-store/issues/49)) ([69e6c73](https://github.com/opzkit/terraform-aws-kops-state-store/commit/69e6c73aa670d1a0ed0073122c1b1b49759269b1))
+
 ## [0.6.0](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.5.1...v0.6.0) (2025-04-10)
 
 
