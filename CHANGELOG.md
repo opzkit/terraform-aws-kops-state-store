@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.6.2](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.6.1...v0.6.2) (2025-08-08)
+
+
+### Bug Fixes
+
+* add filter to S3 bucket lifecycle rule ([#57](https://github.com/opzkit/terraform-aws-kops-state-store/issues/57)) ([d37bc3c](https://github.com/opzkit/terraform-aws-kops-state-store/commit/d37bc3cef56088c7d4074b6f734f82e27a747e7e))
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.100.0 ([#58](https://github.com/opzkit/terraform-aws-kops-state-store/issues/58)) ([2c55add](https://github.com/opzkit/terraform-aws-kops-state-store/commit/2c55add99320d4f39152fa172a59168414b08e35))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.5 ([#55](https://github.com/opzkit/terraform-aws-kops-state-store/issues/55)) ([d54935a](https://github.com/opzkit/terraform-aws-kops-state-store/commit/d54935ac885813edd98321df5cab11e11aa3d194))
+
 ## [0.6.1](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.6.0...v0.6.1) (2025-06-19)
 
 
