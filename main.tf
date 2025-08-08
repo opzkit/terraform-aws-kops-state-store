@@ -30,6 +30,8 @@ resource "aws_s3_bucket_lifecycle_configuration" "state_store" {
     id     = "Remove versions older than 30 days"
     status = "Enabled"
 
+    filter {}
+
     noncurrent_version_expiration {
       noncurrent_days = 30
     }
