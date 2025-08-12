@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.6.3](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.6.2...v0.6.3) (2025-08-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v5 ([#63](https://github.com/opzkit/terraform-aws-kops-state-store/issues/63)) ([4b4aacb](https://github.com/opzkit/terraform-aws-kops-state-store/commit/4b4aacbe2897be2fbe2fded0b7ecb02dabb4ac71))
+* **deps:** update pre-commit hook pre-commit/pre-commit-hooks to v6 ([#59](https://github.com/opzkit/terraform-aws-kops-state-store/issues/59)) ([5cfe37f](https://github.com/opzkit/terraform-aws-kops-state-store/commit/5cfe37f5a6fffeee7fb483c7bcee075528325847))
+* **deps:** update terraform-linters/setup-tflint action to v5 ([#64](https://github.com/opzkit/terraform-aws-kops-state-store/issues/64)) ([e4dd5db](https://github.com/opzkit/terraform-aws-kops-state-store/commit/e4dd5dba087b39e50a993feacbe5e2bdd13733f0))
+
 ## [0.6.2](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.6.1...v0.6.2) (2025-08-08)
 
 
