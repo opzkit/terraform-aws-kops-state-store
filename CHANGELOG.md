@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.6.3](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.6.2...v0.6.3) (2025-09-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v5 ([#63](https://github.com/opzkit/terraform-aws-kops-state-store/issues/63)) ([4b4aacb](https://github.com/opzkit/terraform-aws-kops-state-store/commit/4b4aacbe2897be2fbe2fded0b7ecb02dabb4ac71))
+* **deps:** update actions/create-github-app-token digest to 6701853 ([#68](https://github.com/opzkit/terraform-aws-kops-state-store/issues/68)) ([43b2841](https://github.com/opzkit/terraform-aws-kops-state-store/commit/43b28413fb8324835e491033b97bc1ef417ac2c6))
+* **deps:** update actions/setup-python action to v6 ([#67](https://github.com/opzkit/terraform-aws-kops-state-store/issues/67)) ([2d39edf](https://github.com/opzkit/terraform-aws-kops-state-store/commit/2d39edf1698ddc2615b40812894e9334d78021e1))
+* **deps:** update googleapis/release-please-action digest to c2a5a2b ([#66](https://github.com/opzkit/terraform-aws-kops-state-store/issues/66)) ([ee77e7e](https://github.com/opzkit/terraform-aws-kops-state-store/commit/ee77e7ee71998c5314b4a1de80deb2895a45f812))
+* **deps:** update pre-commit hook pre-commit/pre-commit-hooks to v6 ([#59](https://github.com/opzkit/terraform-aws-kops-state-store/issues/59)) ([5cfe37f](https://github.com/opzkit/terraform-aws-kops-state-store/commit/5cfe37f5a6fffeee7fb483c7bcee075528325847))
+* **deps:** update terraform-linters/setup-tflint action to v5 ([#64](https://github.com/opzkit/terraform-aws-kops-state-store/issues/64)) ([e4dd5db](https://github.com/opzkit/terraform-aws-kops-state-store/commit/e4dd5dba087b39e50a993feacbe5e2bdd13733f0))
+
+
+### Continuous Integration
+
+* add GitHub Actions workflow for release automation ([#65](https://github.com/opzkit/terraform-aws-kops-state-store/issues/65)) ([0cce00b](https://github.com/opzkit/terraform-aws-kops-state-store/commit/0cce00be6ffdb3c6c83e2f68900c7064bada34ab))
+
 ## [0.6.2](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.6.1...v0.6.2) (2025-08-08)
 
 
