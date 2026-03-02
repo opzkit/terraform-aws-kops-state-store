@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.6.4](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.6.3...v0.6.4) (2026-03-02)
+
+
+### Miscellaneous Chores
+
+* **deps:** update hashicorp/setup-terraform action to v4 ([#142](https://github.com/opzkit/terraform-aws-kops-state-store/issues/142)) ([883297b](https://github.com/opzkit/terraform-aws-kops-state-store/commit/883297bf7122d64dc9d48c7ac62cea7d83e21580))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.31.1 ([#140](https://github.com/opzkit/terraform-aws-kops-state-store/issues/140)) ([611e9a5](https://github.com/opzkit/terraform-aws-kops-state-store/commit/611e9a5bc33fd3881581b29c68456b8eeaa741b6))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.46.6 ([#143](https://github.com/opzkit/terraform-aws-kops-state-store/issues/143)) ([d39b6e1](https://github.com/opzkit/terraform-aws-kops-state-store/commit/d39b6e1f7819b7f0917912e52c344777c2307c49))
+
 ## [0.6.3](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.6.2...v0.6.3) (2026-02-17)
 
 
