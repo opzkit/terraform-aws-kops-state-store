@@ -45,6 +45,9 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "state_store" {
   bucket = aws_s3_bucket.state_store.id
 
   rule {
+    blocked_encryption_types = ["NONE"]
+    bucket_key_enabled       = false
+
     apply_server_side_encryption_by_default {
       kms_master_key_id = var.kms_key
       sse_algorithm     = "aws:kms"
