@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.6.5](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.6.4...v0.6.5) (2026-04-27)
+
+
+### Miscellaneous Chores
+
+* **deps:** update googleapis/release-please-action action to v5 ([#157](https://github.com/opzkit/terraform-aws-kops-state-store/issues/157)) ([e76dd68](https://github.com/opzkit/terraform-aws-kops-state-store/commit/e76dd683d6e2447402f49b1f2d24ef50f17c7268))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.126.0 ([#155](https://github.com/opzkit/terraform-aws-kops-state-store/issues/155)) ([b8f394e](https://github.com/opzkit/terraform-aws-kops-state-store/commit/b8f394ef0619198afe771515fa2f0b7d4509e5a9))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.140.0 ([#158](https://github.com/opzkit/terraform-aws-kops-state-store/issues/158)) ([150647f](https://github.com/opzkit/terraform-aws-kops-state-store/commit/150647fd0e102bb4776d039dd4f52ae37f859e14))
+
 ## [0.6.4](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.6.3...v0.6.4) (2026-04-16)
 
 
