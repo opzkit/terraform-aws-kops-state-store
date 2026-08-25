@@ -1,5 +1,40 @@
 # Changelog
 
+## [0.6.5](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.6.4...v0.6.5) (2026-08-25)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v6.0.3 ([#166](https://github.com/opzkit/terraform-aws-kops-state-store/issues/166)) ([64b4614](https://github.com/opzkit/terraform-aws-kops-state-store/commit/64b461462b3c1cb0489df7e677c30d4db1468138))
+* **deps:** update actions/checkout action to v7 ([#168](https://github.com/opzkit/terraform-aws-kops-state-store/issues/168)) ([16635cb](https://github.com/opzkit/terraform-aws-kops-state-store/commit/16635cbc607bf25cf23a382d90adb4b46ffb87d4))
+* **deps:** update actions/checkout digest to 3d3c42e ([#176](https://github.com/opzkit/terraform-aws-kops-state-store/issues/176)) ([e6db3bf](https://github.com/opzkit/terraform-aws-kops-state-store/commit/e6db3bf4f93d8716d1a232d77ff75e2f89da5dc9))
+* **deps:** update actions/checkout digest to df4cb1c ([#165](https://github.com/opzkit/terraform-aws-kops-state-store/issues/165)) ([b436bb4](https://github.com/opzkit/terraform-aws-kops-state-store/commit/b436bb48da10d8677dd7e0289281d0d0dc669462))
+* **deps:** update actions/create-github-app-token digest to bcd2ba4 ([#161](https://github.com/opzkit/terraform-aws-kops-state-store/issues/161)) ([7f08e7f](https://github.com/opzkit/terraform-aws-kops-state-store/commit/7f08e7f250ff7cb397458f33941560417fa9f762))
+* **deps:** update actions/setup-python action to v6.3.0 ([#171](https://github.com/opzkit/terraform-aws-kops-state-store/issues/171)) ([fd30f80](https://github.com/opzkit/terraform-aws-kops-state-store/commit/fd30f80e7b8742137763cc553257e9e08f726c65))
+* **deps:** update actions/setup-python action to v7 ([#177](https://github.com/opzkit/terraform-aws-kops-state-store/issues/177)) ([d1a1ac2](https://github.com/opzkit/terraform-aws-kops-state-store/commit/d1a1ac2dc22a82bf9ec258ba85085998880c3e50))
+* **deps:** update googleapis/release-please-action action to v5 ([#157](https://github.com/opzkit/terraform-aws-kops-state-store/issues/157)) ([e76dd68](https://github.com/opzkit/terraform-aws-kops-state-store/commit/e76dd683d6e2447402f49b1f2d24ef50f17c7268))
+* **deps:** update hashicorp/setup-terraform action to v4.0.1 ([#162](https://github.com/opzkit/terraform-aws-kops-state-store/issues/162)) ([d781b46](https://github.com/opzkit/terraform-aws-kops-state-store/commit/d781b4620e8d25fd3dddc0d61098ebcb1dd33eb9))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.25.0 ([#159](https://github.com/opzkit/terraform-aws-kops-state-store/issues/159)) ([bee2e1e](https://github.com/opzkit/terraform-aws-kops-state-store/commit/bee2e1ebc968446bc9ecd09ebb1cfb82fcf1567d))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.26.0 ([#172](https://github.com/opzkit/terraform-aws-kops-state-store/issues/172)) ([f2f3d0d](https://github.com/opzkit/terraform-aws-kops-state-store/commit/f2f3d0dce65f54afa3c68ef394ea0c5d26679649))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.106.0 ([#164](https://github.com/opzkit/terraform-aws-kops-state-store/issues/164)) ([06781bf](https://github.com/opzkit/terraform-aws-kops-state-store/commit/06781bf2252858542d1d6c67936e159091614ed4))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.107.0 ([#169](https://github.com/opzkit/terraform-aws-kops-state-store/issues/169)) ([a29d1ad](https://github.com/opzkit/terraform-aws-kops-state-store/commit/a29d1ad08d4db1b8903035e539a51d86089c2fcd))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.108.0 ([#170](https://github.com/opzkit/terraform-aws-kops-state-store/issues/170)) ([b2b8302](https://github.com/opzkit/terraform-aws-kops-state-store/commit/b2b83023ab5495e0b9a5fa73c961d35905f532f2))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.108.1 ([#179](https://github.com/opzkit/terraform-aws-kops-state-store/issues/179)) ([1690188](https://github.com/opzkit/terraform-aws-kops-state-store/commit/169018809ccfaf0f04fbfe145d561f7444b985ba))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.109.0 ([#184](https://github.com/opzkit/terraform-aws-kops-state-store/issues/184)) ([aae3efd](https://github.com/opzkit/terraform-aws-kops-state-store/commit/aae3efdb56cb51567da55d200d7d2ca36f8aa6e8))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.126.0 ([#155](https://github.com/opzkit/terraform-aws-kops-state-store/issues/155)) ([b8f394e](https://github.com/opzkit/terraform-aws-kops-state-store/commit/b8f394ef0619198afe771515fa2f0b7d4509e5a9))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.140.0 ([#158](https://github.com/opzkit/terraform-aws-kops-state-store/issues/158)) ([150647f](https://github.com/opzkit/terraform-aws-kops-state-store/commit/150647fd0e102bb4776d039dd4f52ae37f859e14))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.150.0 ([#160](https://github.com/opzkit/terraform-aws-kops-state-store/issues/160)) ([f48c219](https://github.com/opzkit/terraform-aws-kops-state-store/commit/f48c2196934386f7bbb57c65edc6f77aa5ce44d2))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.201.3 ([#163](https://github.com/opzkit/terraform-aws-kops-state-store/issues/163)) ([9a6eb0d](https://github.com/opzkit/terraform-aws-kops-state-store/commit/9a6eb0d87dc4f9fac1d9b8de9f085f8158f5b36d))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.218.0 ([#167](https://github.com/opzkit/terraform-aws-kops-state-store/issues/167)) ([59c137f](https://github.com/opzkit/terraform-aws-kops-state-store/commit/59c137fe5db52420f41b58aa701a8569e2bde6d9))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.243.1 ([#173](https://github.com/opzkit/terraform-aws-kops-state-store/issues/173)) ([33d96d0](https://github.com/opzkit/terraform-aws-kops-state-store/commit/33d96d02123de75a75be2a61d0901f3beb2750c6))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.251.0 ([#175](https://github.com/opzkit/terraform-aws-kops-state-store/issues/175)) ([9ab5904](https://github.com/opzkit/terraform-aws-kops-state-store/commit/9ab5904a135fa8e3516ac8befea70bb483cd13fa))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.279.0 ([#178](https://github.com/opzkit/terraform-aws-kops-state-store/issues/178)) ([0f8df6b](https://github.com/opzkit/terraform-aws-kops-state-store/commit/0f8df6b68970f73b034c921eb81ba3fe0110f55a))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.288.0 ([#180](https://github.com/opzkit/terraform-aws-kops-state-store/issues/180)) ([38dd397](https://github.com/opzkit/terraform-aws-kops-state-store/commit/38dd397a25004c75057392e082b2e76929ca21d6))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v44 ([#181](https://github.com/opzkit/terraform-aws-kops-state-store/issues/181)) ([c1a1d78](https://github.com/opzkit/terraform-aws-kops-state-store/commit/c1a1d789eeb0cb3611c54864409a4b8bd8c14219))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v44.29.4 ([#182](https://github.com/opzkit/terraform-aws-kops-state-store/issues/182)) ([9047337](https://github.com/opzkit/terraform-aws-kops-state-store/commit/9047337ce9fa0dc367811563a898cd897263b935))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v44.37.1 ([#183](https://github.com/opzkit/terraform-aws-kops-state-store/issues/183)) ([8b6bd85](https://github.com/opzkit/terraform-aws-kops-state-store/commit/8b6bd857d5539c06e8d537b6621a46afafd36da1))
+* **deps:** update terraform-linters/setup-tflint action to v6.3.0 ([#174](https://github.com/opzkit/terraform-aws-kops-state-store/issues/174)) ([e83fc09](https://github.com/opzkit/terraform-aws-kops-state-store/commit/e83fc093e0126c2f17e48c07821a89b390b73b4b))
+
 ## [0.6.4](https://github.com/opzkit/terraform-aws-kops-state-store/compare/v0.6.3...v0.6.4) (2026-04-16)
 
 
